@@ -11,12 +11,12 @@ The project explores how AI and embedded systems can be integrated to make visua
 ✨ Key Features
 
 - 🖼️ Image Description: Generates descriptions of visual content using AI.
-- 📝 Optical Character Recognition (OCR): Explores printed-text recognition from images.
+- 📝 Optical Character Recognition (OCR): Supports printed-text recognition from images.
 - 🌐 Text Translation: Processes text translation requests and displays the result.
 - ➗ Mathematical Assistance: Supports basic mathematical problem assistance.
 - 🖥️ OLED Display: Displays instructions and API responses.
 - 🔘 Button-Based Interaction: Allows users to select different functions.
-- 🔊 Audio Output: Intended to provide additional feedback through audio.
+- 🔊 Audio Output: Provides additional feedback where implemented.
 
 🛠️ Hardware Components
 
@@ -36,7 +36,7 @@ USB Cable| Power and programming connection
 - U8g2 Library — OLED display control.
 - I2C Communication — Communication with the OLED display.
 - Wi-Fi — Connectivity for online AI processing.
-- I2S Audio — Audio interface for the planned or implemented audio output.
+- I2S Audio — Audio interface for audio output, where implemented.
 
 ⚙️ Working Principle
 
@@ -45,17 +45,21 @@ USB Cable| Power and programming connection
 3. The device sends the relevant request to an AI service through Wi-Fi.
 4. The AI service processes the request and returns a response.
 5. The OLED display presents the response to the user.
-6. Audio feedback can provide an additional output where implemented.
+6. Audio feedback can provide additional output where implemented.
 
 📸 Project Demonstration
 
 1. Circuit Setup and API Response
 
-The first image shows the ESP32-CAM mounted on a prototyping board, connected to the OLED display and push buttons. The OLED displays an API response prompt, demonstrating the display interface and hardware integration.
+The image below shows the ESP32-CAM mounted on a prototyping board, connected to the OLED display and push buttons. The OLED displays an API response prompt, demonstrating the hardware setup and display interface.
+
+"ESP32-CAM Circuit Setup and API Response" (SmartSelect_20261026-191743_LinkedIn.jpg)
 
 2. Text Translation Result
 
-The second image demonstrates the OLED display presenting a translation result. The displayed example translates the text into English, showing how the system can present the output of a translation request.
+The image below shows the OLED display presenting a translation result. The displayed example shows the English translation "Good Morning".
+
+"OLED Display Showing Translation Result" (SmartSelect_20261026-191809_LinkedIn.jpg)
 
 📚 Skills Learned
 
@@ -97,3 +101,7 @@ The project demonstrates the hardware setup, OLED response interface, and transl
 🏁 Conclusion
 
 The Smart Vision Assistant Camera explores the integration of embedded systems and AI to process visual information and provide useful responses. Through ESP32-CAM integration, OLED interfacing, button-based interaction, and AI API communication, this project provides practical experience in developing interactive embedded AI applications.
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository!
